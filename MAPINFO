@@ -1,0 +1,23 @@
+Map map01 "All dogs go to heaven"
+Levelnum 01
+Next map02
+Music M1
+sky1 textures/SKY5.png 0.0
+
+Map map02 "Intense motherfucking"
+Levelnum 02
+Next map03
+Music M2
+sky1 textures/SKY5.png 0.0
+
+Map map03 "MarbleStone"
+Levelnum 03
+Next map04
+Music M3
+sky1 textures/SKY5.png 0.0
+
+Map map04 "Octopus"
+Levelnum 04
+Next map05
+Music M4
+sky1 textures/SKY5.png 0.0

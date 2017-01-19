@@ -1,0 +1,6 @@
+#include "zcommon.acs"
+
+script 1 (void)
+{
+	print(s:"Hello motherfrutero");
+}
