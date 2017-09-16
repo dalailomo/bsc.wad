@@ -12,16 +12,23 @@ Music music/callback.mp3
 sky1 textures/SKY5.png 0.0
 nointermission
 
-Map map03 "MarbleStone"
+Map map03 "Relaxing cup of cafe con leche"
 Levelnum 03
 Next map04
-Music M3
+Music music/railgun.mp3
 sky1 textures/SKY5.png 0.0
 nointermission
 
 Map map04 "Octopussy"
 Levelnum 04
 Next map05
-Music M4
+Music music/servobrake.mp3
+sky1 textures/SKY5.png 0.0
+nointermission
+
+Map map05 "Its very difficult todo esto"
+Levelnum 05
+Next map05
+Music music/monkey.mp3
 sky1 textures/SKY5.png 0.0
 nointermission
