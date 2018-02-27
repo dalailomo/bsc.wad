@@ -28,7 +28,16 @@ nointermission
 
 Map map05 "Its very difficult todo esto"
 Levelnum 05
-Next map05
+Next map06
 Music music/monkey.mp3
 sky1 textures/SKY5.png 0.0
 nointermission
+
+Map map06 "The pesetor"
+Levelnum 06
+Next map07
+Music music/sirloin.mp3
+sky1 textures/SKY5.png 0.0
+nointermission
+
+
