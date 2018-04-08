@@ -1,13 +1,18 @@
 ClearEpisodes
 
 episode "&wt@01" {
-  name = "Handermore"
+  name = "A new pope"
   key = "a"
 }
 
 episode "&wt@07" {
-  name = "The redemption of Mariano"
+  name = "The empire smokes crack"
   key = "b"
+}
+
+episode "&wt@13" {
+  name = "The return statement"
+  key = "c"
 }
 
 intermission "endone" {
@@ -18,7 +23,7 @@ intermission "endone" {
 }
 
 Map map01 "All dogs go to heaven" {
-  Levelnum = 01
+  Levelnum = 1
   Next = map02
   Music = "music/shrimps.mp3"
   sky1 = "textures/SKY5.png"
@@ -26,7 +31,7 @@ Map map01 "All dogs go to heaven" {
 }
 
 Map map02 "Intense motherfucking" {
-  Levelnum = 02
+  Levelnum = 2
   Next = map03
   Music = "music/callback.mp3"
   sky1 = "textures/SKY5.png"
@@ -34,7 +39,7 @@ Map map02 "Intense motherfucking" {
 }
 
 Map map03 "Relaxing cup of cafe con leche" {
-  Levelnum = 03
+  Levelnum = 3
   Next = map04
   Music = "music/railgun.mp3"
   sky1 = "textures/SKY5.png"
@@ -42,7 +47,7 @@ Map map03 "Relaxing cup of cafe con leche" {
 }
 
 Map map04 "Octopussy" {
-  Levelnum = 04
+  Levelnum = 4
   Next = map05
   Music = "music/servobrake.mp3"
   sky1 = "textures/SKY5.png"
@@ -50,7 +55,7 @@ Map map04 "Octopussy" {
 }
 
 Map map05 "Its very difficult todo esto" {
-  Levelnum = 05
+  Levelnum = 5
   Next = map06
   Music = "music/monkey.mp3"
   sky1 = "textures/SKY5.png"
@@ -58,17 +63,25 @@ Map map05 "Its very difficult todo esto" {
 }
 
 Map map06 "The pesetor" {
-  Levelnum = 06
+  Levelnum = 6
   Next = EndSequence, "endone"
   Music = "music/sirloin.mp3"
   sky1 = "textures/SKY5.png"
   nointermission
 }
 
-Map map07 "BSC" {
-  Levelnum = 07
+Map map07 "Se va a ve una q no va a sabe ni donde sa metio" {
+  Levelnum = 7
   Next = map08
-  Music = "music/sirloin.mp3"
+  Music = "music/demo_hail.ogg"
+  sky1 = "SKYIO1"
+  nointermission
+}
+
+Map map08 "Eye salad" {
+  Levelnum = 8
+  Next = map09
+  Music = "music/demo_rotten.ogg"
   sky1 = "SKYIO1"
   nointermission
 }
