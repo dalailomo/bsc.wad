@@ -5,12 +5,12 @@ episode "&wt@01" {
   key = "a"
 }
 
-episode "&wt@07" {
+episode "&wt@04" {
   name = "The empire smokes crack"
   key = "b"
 }
 
-episode "&wt@13" {
+episode "&wt@07" {
   name = "The return statement"
   key = "c"
 }
@@ -18,6 +18,13 @@ episode "&wt@13" {
 intermission "endone" {
   TextScreen {
     text = "ooorlrlrlrl"
+    background = "ADEL_F64"
+  }
+}
+
+intermission "endtwo" {
+  TextScreen {
+    text = "aaaarlrlrlr"
     background = "ADEL_F64"
   }
 }
@@ -38,15 +45,15 @@ Map map02 "Intense motherfucking" {
   nointermission
 }
 
-Map map03 "Relaxing cup of cafe con leche" {
+Map map03 "The wastelands" {
   Levelnum = 3
-  Next = map04
+  Next = EndSequence, "endone"
   Music = "music/railgun.mp3"
   sky1 = "textures/SKY5.png"
   nointermission
 }
 
-Map map04 "Octopussy" {
+Map map04 "Below" {
   Levelnum = 4
   Next = map05
   Music = "music/servobrake.mp3"
@@ -54,7 +61,7 @@ Map map04 "Octopussy" {
   nointermission
 }
 
-Map map05 "Its very difficult todo esto" {
+Map map05 "The blood pillars" {
   Levelnum = 5
   Next = map06
   Music = "music/monkey.mp3"
@@ -62,15 +69,15 @@ Map map05 "Its very difficult todo esto" {
   nointermission
 }
 
-Map map06 "The pesetor" {
+Map map06 "The tower" {
   Levelnum = 6
-  Next = EndSequence, "endone"
+  Next = EndSequence, "endtwo"
   Music = "music/sirloin.mp3"
   sky1 = "textures/SKY5.png"
   nointermission
 }
 
-Map map07 "Se va a ve una q no va a sabe ni donde sa metio" {
+Map map07 "Three is one plus two" {
   Levelnum = 7
   Next = map08
   Music = "music/demo_hail.ogg"
@@ -78,7 +85,7 @@ Map map07 "Se va a ve una q no va a sabe ni donde sa metio" {
   nointermission
 }
 
-Map map08 "Eye salad" {
+Map map08 "The island" {
   Levelnum = 8
   Next = map09
   Music = "music/demo_rotten.ogg"
