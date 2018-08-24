@@ -29,10 +29,17 @@ intermission "endtwo" {
   }
 }
 
+intermission "endthree" {
+  TextScreen {
+    text = "iiirlrllr"
+    background = "ADEL_F64"
+  }
+}
+
 Map map01 "All dogs go to heaven" {
   Levelnum = 1
   Next = map02
-  Music = "music/shrimps.mp3"
+  Music = "music/01.mp3"
   sky1 = "textures/SKY5.png"
   nointermission
 }
@@ -40,7 +47,7 @@ Map map01 "All dogs go to heaven" {
 Map map02 "Intense motherfucking" {
   Levelnum = 2
   Next = map03
-  Music = "music/callback.mp3"
+  Music = "music/02.mp3"
   sky1 = "textures/SKY5.png"
   nointermission
 }
@@ -48,7 +55,7 @@ Map map02 "Intense motherfucking" {
 Map map03 "The wastelands" {
   Levelnum = 3
   Next = EndSequence, "endone"
-  Music = "music/railgun.mp3"
+  Music = "music/03.mp3"
   sky1 = "textures/SKY5.png"
   nointermission
 }
@@ -56,23 +63,23 @@ Map map03 "The wastelands" {
 Map map04 "Below" {
   Levelnum = 4
   Next = map05
-  Music = "music/servobrake.mp3"
+  Music = "music/04.mp3"
   sky1 = "textures/SKY5.png"
   nointermission
 }
 
-Map map05 "The blood pillars" {
+Map map05 "The island facilty" {
   Levelnum = 5
   Next = map06
-  Music = "music/monkey.mp3"
+  Music = "music/05.mp3"
   sky1 = "textures/SKY5.png"
   nointermission
 }
 
-Map map06 "The tower" {
+Map map06 "The blood pillars" {
   Levelnum = 6
   Next = EndSequence, "endtwo"
-  Music = "music/sirloin.mp3"
+  Music = "music/06.mp3"
   sky1 = "textures/SKY5.png"
   nointermission
 }
@@ -80,15 +87,15 @@ Map map06 "The tower" {
 Map map07 "Three is one plus two" {
   Levelnum = 7
   Next = map08
-  Music = "music/demo_hail.ogg"
+  Music = "music/07.mp3"
   sky1 = "SKYIO1"
   nointermission
 }
 
-Map map08 "The island" {
+Map map08 "The island tower" {
   Levelnum = 8
   Next = map09
-  Music = "music/demo_rotten.ogg"
+  Music = "music/08.mp3"
   sky1 = "SKYIO1"
   nointermission
 }
