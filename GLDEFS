@@ -1,0 +1,84 @@
+object Candlestick
+{
+    frame CAND { light SMALLREDTORCH }
+}
+
+object Candelabra
+{
+    frame CBRA { light SMALLREDTORCH }
+}
+
+Glow
+{
+	Walls
+	{
+		LAVAFL "255 200 0" fullbright
+		LIT05 fullbright
+		SFALL1 fullbright
+		SFALL2 fullbright
+		SFALL3 fullbright
+		SFALL4 fullbright
+
+		DOORBLU fullbright
+		DOORBLU2 fullbright
+		DOORRED fullbright
+		DOORRED2 fullbright
+		DOORYEL fullbright
+		DOORYEL2 fullbright
+
+		TLITE6_5 "99 0 0"
+		GRNLITE1 "99 99 99" fullbright
+		FLAT2 FULLBRIGHT
+		tlite6_1
+		tlite6_4
+	}
+	Flats
+	{
+	    BLOOD1
+		BLOOD2
+		BLOOD3
+
+		FLAT17
+		FLAT2 FULLBRIGHT
+		FLAT22
+		FLOOR1_7
+		RROCK01
+		RROCK02
+
+
+		RROCK05
+		RROCK06
+		RROCK07
+		RROCK08
+
+		TLITE6_5 "99 0 0"
+		GRNLITE1 "99 99 99" fullbright
+		tlite6_1
+		tlite6_4
+		grnlite1
+		ceil3_4
+		ceil3_3
+		floor1_7
+		gate4
+		gate1
+		gate3
+		TLITE6_6
+
+		LITGEN8 fullbright
+
+		NUKAGE1 "0 255 0" fullbright
+		NUKAGE2 "0 255 0" fullbright
+		NUKAGE3 "0 255 0" fullbright
+		NUKAGE4 "0 255 0" fullbright
+
+		LAVA1 fullbright
+		LAVA2 fullbright
+		LAVA3 fullbright
+		LAVA4 fullbright
+
+		SLIME09
+		SLIME10
+		SLIME11
+		SLIME12
+		}
+}

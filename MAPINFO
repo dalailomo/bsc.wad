@@ -15,87 +15,89 @@ episode "&wt@07" {
   key = "c"
 }
 
-intermission "endone" {
+intermission "endgame" {
   TextScreen {
-    text = "ooorlrlrlrl"
+    text = "So you killed a bunch of motherfuckers",
+    "and then went for beers. Thanks for playing!!!"
     background = "ADEL_F64"
   }
 }
 
-intermission "endtwo" {
-  TextScreen {
-    text = "aaaarlrlrlr"
-    background = "ADEL_F64"
-  }
+clusterdef 1 {
+  exittext = "Then you realize there is no pope.",
+  "It was just a cluster fuck.",
+  "Now entering Episode 2:",
+  "The empire smokes crack"
+  FLAT = "ADEL_F64"
 }
 
-intermission "endthree" {
-  TextScreen {
-    text = "iiirlrllr"
-    background = "ADEL_F64"
-  }
+clusterdef 2 {
+  exittext = "Something dark happens in your ass.",
+  "Now entering Episode 3: The return statement"
+  FLAT = "ADEL_F64"
 }
 
 Map map01 "All dogs go to heaven" {
   Levelnum = 1
   Next = map02
-  Music = "music/01.mp3"
-  sky1 = "textures/SKY5.png"
-  nointermission
+  Music = "music/e1m1bsc.mp3"
+  sky1 = "SKY5"
 }
 
 Map map02 "Intense motherfucking" {
   Levelnum = 2
   Next = map03
-  Music = "music/02.mp3"
-  sky1 = "textures/SKY5.png"
-  nointermission
+  Music = "music/e1m2bsc.mp3"
+  sky1 = "SKY5"
 }
 
-Map map03 "The wastelands" {
+Map map03 "The labyrinth of unspeakable pain" {
   Levelnum = 3
-  Next = EndSequence, "endone"
-  Music = "music/03.mp3"
-  sky1 = "textures/SKY5.png"
-  nointermission
+  Next = Map04
+  Music = "music/e1m3bsc.mp3"
+  sky1 = "SKY5"
+  cluster = 1
 }
 
-Map map04 "Below" {
+Map map04 "Finding nemonomicron" {
   Levelnum = 4
   Next = map05
-  Music = "music/04.mp3"
-  sky1 = "textures/SKY5.png"
+  Music = "music/e2m1bsc.mp3"
+  sky1 = "SKY5"
   nointermission
 }
 
-Map map05 "The island facilty" {
+Map map05 "Fear fucktor" {
   Levelnum = 5
   Next = map06
-  Music = "music/05.mp3"
-  sky1 = "textures/SKY5.png"
-  nointermission
+  Music = "music/e2m2bsc.mp3"
+  sky1 = "SKY5"
 }
 
-Map map06 "The blood pillars" {
+Map map06 "The menstruation palace" {
   Levelnum = 6
-  Next = EndSequence, "endtwo"
-  Music = "music/06.mp3"
-  sky1 = "textures/SKY5.png"
-  nointermission
+  Next = Map07
+  Music = "music/e2m3bsc.mp3"
+  sky1 = "SKY5"
 }
 
-Map map07 "Three is one plus two" {
+Map map07 "BSC Inc." {
   Levelnum = 7
   Next = map08
-  Music = "music/07.mp3"
+  Music = "music/e3m1bsc.mp3"
   sky1 = "SKYIO1"
-  nointermission
 }
 
-Map map08 "The island tower" {
+Map map08 "The tower" {
   Levelnum = 8
   Next = map09
-  Music = "music/08.mp3"
+  Music = "music/e3m2bsc.mp3"
   sky1 = "SKYIO1"
-  nointermission
+}
+
+Map map09 "The unholy" {
+  Levelnum = 9
+  Next = EndSequence, "endgame"
+  Music = "music/e3m3bsc.mp3"
+  sky1 = "SEPI3"
 }
