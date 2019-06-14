@@ -1,0 +1,20 @@
+actor MarineroPistolero : MarinePistol {
+    health 40
+    speed 18
+    Translation 1
+    DropItem "Pistol" 200 4
+}
+
+actor MarineroSSGero : MarineSSG {
+    health 70
+    speed 18
+    Translation 2
+    DropItem "SuperShotgun" 200 4
+}
+
+actor MarineroChaingunero : MarineChaingun {
+    health 100
+    speed 18
+    Translation 3
+    DropItem "Chaingun" 200 4
+}

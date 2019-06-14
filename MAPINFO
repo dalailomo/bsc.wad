@@ -1,4 +1,5 @@
 ClearEpisodes
+ClearSkills
 
 episode "&wt@01" {
   name = "A new pope"
@@ -11,21 +12,89 @@ episode "&wt@04" {
 }
 
 episode "&wt@07" {
-  name = "The return statement"
+  name = "The return of the popeye"
   key = "c"
 }
 
 intermission "endgame" {
   TextScreen {
-    text = "So you killed a bunch of motherfuckers",
-    "and then went for beers. Thanks for playing!!!"
+    text = "So that's basically it.",
+    "Thanks for playing!"
     background = "ADEL_F64"
   }
 }
 
+skill baby
+{
+  AmmoFactor = 2
+  DamageFactor = 0.5
+  SpawnFilter = Baby
+  ACSReturn = 1
+  Aggressiveness = 0
+  MonsterHealth = 0.5
+  PlayerRespawn
+  Name = "I just want to relax"
+  TotalInfighting
+}
+
+skill easy
+{
+  AmmoFactor = 1.5
+  DamageFactor = 0.8
+  SpawnFilter = Easy
+  ACSReturn = 2
+  Aggressiveness = 0.3
+  MonsterHealth = 0.8
+  Name = "Not quite there yet..."
+  TotalInfighting
+}
+
+skill normal
+{
+  AmmoFactor = 1
+  DamageFactor = 1
+  SpawnFilter = normal
+  ACSReturn = 3
+  Aggressiveness = .8
+  MonsterHealth = 1
+  DefaultSkill
+  Name = "Now we are talking"
+  TotalInfighting
+}
+
+skill hard
+{
+  AmmoFactor = 3
+  ArmorFactor = 3
+  HealthFactor = 3
+  DamageFactor = 1.5
+  SpawnFilter = hard
+  ACSReturn = 4
+  Aggressiveness = 1
+  MonsterHealth = 1.5
+  TextColor = "black"
+  Name = "Clusterfuck"
+  TotalInfighting
+
+  ReplaceActor = "DoomImpBall", "FatShot"
+  ReplaceActor = "RevenantTracer", "Rocket"
+  ReplaceActor = "FatShot", "Rocket"
+  ReplaceActor = "PlasmaBall", "Rocket"
+  ReplaceActor = "ArachnotronPlasma", "RevenantTracer"
+
+  ReplaceActor = "ZombieMan", "MarineroPistolero"
+  ReplaceActor = "ShotgunGuy", "MarineroSSGero"
+  ReplaceActor = "ChaingunGuy", "MarineroChaingunero"
+  ReplaceActor = "Cacodemon", "CacolanternClone"
+  ReplaceActor = "HellKnight", "BaronOfHell"
+  ReplaceActor = "BaronOfHell", "BelphegorClone"
+
+  ReplaceActor = "BFG9000", "PlasmaRifle"
+}
+
 clusterdef 1 {
   exittext = "Then you realize there is no pope.",
-  "It was just a cluster fuck.",
+  "It was just a clusterfuck.",
   "Now entering Episode 2:",
   "The empire smokes crack"
   FLAT = "ADEL_F64"
@@ -33,7 +102,8 @@ clusterdef 1 {
 
 clusterdef 2 {
   exittext = "Something dark happens in your ass.",
-  "Now entering Episode 3: The return statement"
+  "Now entering Episode 3:",
+  "The return of the popeye"
   FLAT = "ADEL_F64"
 }
 
@@ -51,7 +121,7 @@ Map map02 "Intense motherfucking" {
   sky1 = "SKY5"
 }
 
-Map map03 "The labyrinth of unspeakable pain" {
+Map map03 "Finis terrae" {
   Levelnum = 3
   Next = Map04
   Music = "music/e1m3bsc.mp3"
@@ -64,7 +134,6 @@ Map map04 "Finding nemonomicron" {
   Next = map05
   Music = "music/e2m1bsc.mp3"
   sky1 = "SKY5"
-  nointermission
 }
 
 Map map05 "Fear fucktor" {
@@ -74,11 +143,12 @@ Map map05 "Fear fucktor" {
   sky1 = "SKY5"
 }
 
-Map map06 "The menstruation palace" {
+Map map06 "Bloodlust" {
   Levelnum = 6
   Next = Map07
   Music = "music/e2m3bsc.mp3"
   sky1 = "SKY5"
+  cluster = 2
 }
 
 Map map07 "BSC Inc." {
@@ -99,5 +169,5 @@ Map map09 "The unholy" {
   Levelnum = 9
   Next = EndSequence, "endgame"
   Music = "music/e3m3bsc.mp3"
-  sky1 = "SEPI3"
+  sky1 = "SKYIO1"
 }
