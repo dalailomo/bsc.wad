@@ -12,7 +12,7 @@ episode "&wt@04" {
 }
 
 episode "&wt@07" {
-  name = "The return of the popeye"
+  name = "The return of the deny"
   key = "c"
 }
 
@@ -103,7 +103,7 @@ clusterdef 1 {
 clusterdef 2 {
   exittext = "Something dark happens in your ass.",
   "Now entering Episode 3:",
-  "The return of the popeye"
+  "The return of the deny"
   FLAT = "ADEL_F64"
 }
 
@@ -121,7 +121,7 @@ Map map02 "Intense motherfucking" {
   sky1 = "SKY5"
 }
 
-Map map03 "Finis terrae" {
+Map map03 "Harrowed village" {
   Levelnum = 3
   Next = Map04
   Music = "music/e1m3bsc.mp3"
@@ -143,7 +143,7 @@ Map map05 "Fear fucktor" {
   sky1 = "SKY5"
 }
 
-Map map06 "Bloodlust" {
+Map map06 "The menstruation palace" {
   Levelnum = 6
   Next = Map07
   Music = "music/e2m3bsc.mp3"
@@ -168,6 +168,13 @@ Map map08 "The tower" {
 Map map09 "The unholy" {
   Levelnum = 9
   Next = EndSequence, "endgame"
-  Music = "music/e3m3bsc.mp3"
-  sky1 = "SKYIO1"
+  Music = "music/Unreal4.umx"
+  sky1 = "SEPI3"
+}
+
+Map map10 "The cathedral of eternal suffering" {
+  Levelnum = 10
+  Next = Map05
+  Music = "music/Unreal4.umx"
+  sky1 = "SEPI3"
 }
