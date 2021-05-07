@@ -577,7 +577,7 @@ maps
 	MAP09
 	{
 		scriptcompiler = "zdoom_acs.cfg";
-		defaultfloortexture = "FLAT5";
+		defaultfloortexture = "FLAT10";
 		overrideceilheight = false;
 		
 		resources
@@ -592,11 +592,11 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaulttoptexture = "ADEL_Q64";
+		defaulttoptexture = "SP_ROCK1";
 		overridemiddletexture = false;
-		viewpositionx = 318.9604f;
-		viewpositiony = -297.5524f;
-		viewscale = 0.2263725f;
+		viewpositionx = -4799.153f;
+		viewpositiony = -4464.731f;
+		viewscale = 0.6465414f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -611,7 +611,7 @@ maps
 			backsource = 0;
 			backscaley = 100;
 		}
-		defaultceiltexture = "ADEL_F08";
+		defaultceiltexture = "F_SKY1";
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
@@ -620,25 +620,32 @@ maps
 		overridetoptexture = false;
 		custombrightness = 196;
 		overrideceiltexture = false;
-		defaultwalltexture = "ADEL_Q64";
-		defaultbottomtexture = "ADEL_Q64";
+		defaultwalltexture = "SP_ROCK1";
+		defaultbottomtexture = "SP_ROCK1";
 		
 		fieldtypes
 		{
 			
+			linedef
+			{
+				locknumber = 0;
+			}
+			
 			sidedef
 			{
-				offsetx_mid = 1;
 				offsety_mid = 1;
-				offsetx_bottom = 1;
+				offsetx_mid = 1;
 				offsety_bottom = 1;
-				offsetx_top = 1;
-				offsety_top = 1;
-				light = 0;
+				offsetx_bottom = 1;
 				scalex_mid = 1;
 				scaley_mid = 1;
-				scaley_bottom = 1;
+				light = 0;
+				offsetx_top = 1;
+				offsety_top = 1;
 				scalex_bottom = 1;
+				scaley_bottom = 1;
+				scalex_top = 1;
+				scaley_top = 1;
 			}
 			
 			sector
@@ -653,14 +660,29 @@ maps
 				rotationfloor = 17;
 				xscalefloor = 1;
 				yscalefloor = 1;
+				floorglowcolor = 0;
+				floorglowheight = 1;
 				lightfloor = 0;
-				lightcolor = 0;
 				lightceiling = 0;
+				lightcolor = 0;
+				damagetype = 2;
+				damageamount = 0;
+				damageinterval = 0;
+				leakiness = 0;
+				fogdensity = 0;
+				desaturation = 1;
+				fadecolor = 0;
+				floor_reflect = 1;
+				ceilingglowcolor = 0;
+				ceilingglowheight = 1;
+				ceiling_reflect = 1;
+				gravity = 1;
 			}
 			
 			thing
 			{
 				renderstyle = 2;
+				fillcolor = 0;
 			}
 		}
 	}
@@ -874,27 +896,18 @@ maps
 			
 			resource0
 			{
-				type = 0;
-				location = "C:\\Users\\pedro\\Games\\Oldschool\\DooM\\bsc\\bsc.wad";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-			}
-			
-			resource1
-			{
 				type = 1;
 				location = "C:\\Users\\pedro\\Games\\Oldschool\\DooM\\bsc";
-				option1 = 0;
-				option2 = 0;
+				option1 = 1;
+				option2 = 1;
 				notfortesting = 0;
 			}
 		}
-		defaultfloortexture = "MFLR8_3";
-		defaultceiltexture = "F_SKY1";
-		defaulttoptexture = "SP_ROCK1";
-		defaultwalltexture = "SP_ROCK1";
-		defaultbottomtexture = "SP_ROCK1";
+		defaultfloortexture = "FLAT5";
+		defaultceiltexture = "ADEL_F08";
+		defaulttoptexture = "ADEL_Q64";
+		defaultwalltexture = "ADEL_Q64";
+		defaultbottomtexture = "ADEL_Q64";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -908,9 +921,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 206.0674f;
-		viewpositiony = -108.6589f;
-		viewscale = 1.856465f;
+		viewpositionx = -211.7827f;
+		viewpositiony = 80.91041f;
+		viewscale = 0.3846155f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -921,16 +934,46 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 16f;
+			gridsize = 8f;
 		}
 		
 		fieldtypes
 		{
 			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+				light = 0;
+				scalex_mid = 1;
+				scaley_mid = 1;
+				scaley_bottom = 1;
+				scalex_bottom = 1;
+			}
+			
 			sector
 			{
-				fogdensity = 0;
-				fadecolor = 0;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 17;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				rotationfloor = 17;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				lightcolor = 0;
+				lightceiling = 0;
+			}
+			
+			thing
+			{
+				renderstyle = 2;
 			}
 		}
 	}
