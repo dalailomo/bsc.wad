@@ -515,9 +515,9 @@ maps
 		}
 		defaulttoptexture = "SKY1";
 		overridemiddletexture = false;
-		viewpositionx = 718.1857f;
-		viewpositiony = 332.4397f;
-		viewscale = 1.164975f;
+		viewpositionx = 1567.08f;
+		viewpositiony = 402.9254f;
+		viewscale = 1.514467f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -573,8 +573,8 @@ maps
 				yscalefloor = 1;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 1;
-				rotationfloor = 1;
+				rotationceiling = 17;
+				rotationfloor = 17;
 			}
 			
 			thing
