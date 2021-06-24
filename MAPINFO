@@ -12,7 +12,7 @@ episode "&wt@04" {
 }
 
 episode "&wt@07" {
-  name = "The return of the deny"
+  name = "The return of the Semper Fi"
   key = "c"
 }
 
@@ -103,7 +103,7 @@ clusterdef 1 {
 clusterdef 2 {
   exittext = "Something dark happens in your ass.",
   "Now entering Episode 3:",
-  "The return of the deny"
+  "The return of the Semper Fi"
   FLAT = "ADEL_F64"
 }
 
@@ -143,7 +143,7 @@ Map map05 "Fear fucktor" {
   sky1 = "SKY5"
 }
 
-Map map06 "The menstruation palace" {
+Map map06 "Bloodlust" {
   Levelnum = 6
   Next = Map07
   Music = "music/e2m3bsc.mp3"

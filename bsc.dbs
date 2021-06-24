@@ -515,9 +515,9 @@ maps
 		}
 		defaulttoptexture = "SKY1";
 		overridemiddletexture = false;
-		viewpositionx = -68.13224f;
-		viewpositiony = -539.4407f;
-		viewscale = 0.3137625f;
+		viewpositionx = 718.1857f;
+		viewpositiony = 332.4397f;
+		viewscale = 1.164975f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -555,6 +555,12 @@ maps
 				scaley_bottom = 1;
 				scalex_top = 1;
 				scalex_mid = 1;
+				offsety_bottom = 1;
+				offsetx_bottom = 1;
+				offsety_mid = 1;
+				offsetx_mid = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
 			}
 			
 			sector
@@ -565,6 +571,10 @@ maps
 				yscaleceiling = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				rotationfloor = 1;
 			}
 			
 			thing
