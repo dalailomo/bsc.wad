@@ -202,27 +202,18 @@ maps
 			
 			resource0
 			{
-				type = 0;
-				location = "C:\\Users\\pedro\\Games\\Oldschool\\DooM\\bsc\\bsc.wad";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-			}
-			
-			resource1
-			{
 				type = 1;
 				location = "C:\\Users\\pedro\\Games\\Oldschool\\DooM\\bsc";
-				option1 = 0;
-				option2 = 0;
+				option1 = 1;
+				option2 = 1;
 				notfortesting = 0;
 			}
 		}
 		defaulttoptexture = "STARGR1";
 		overridemiddletexture = false;
-		viewpositionx = 4951.421f;
-		viewpositiony = 513.8095f;
-		viewscale = 0.6006132f;
+		viewpositionx = 1555.119f;
+		viewpositiony = 393.5703f;
+		viewscale = 1.715411f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -232,7 +223,7 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 32f;
+			gridsize = 8f;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
@@ -497,27 +488,18 @@ maps
 			
 			resource0
 			{
-				type = 0;
-				location = "C:\\Users\\pedro\\Games\\Oldschool\\DooM\\bsc\\bsc.wad";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-			}
-			
-			resource1
-			{
 				type = 1;
 				location = "C:\\Users\\pedro\\Games\\Oldschool\\DooM\\bsc";
-				option1 = 0;
-				option2 = 0;
+				option1 = 1;
+				option2 = 1;
 				notfortesting = 0;
 			}
 		}
 		defaulttoptexture = "SKY1";
 		overridemiddletexture = false;
-		viewpositionx = 1567.08f;
-		viewpositiony = 402.9254f;
-		viewscale = 1.514467f;
+		viewpositionx = 1879.003f;
+		viewpositiony = 845.0399f;
+		viewscale = 0.3137608f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -530,7 +512,7 @@ maps
 			backscalex = 100;
 			backscaley = 100;
 			backsource = 0;
-			gridsize = 8f;
+			gridsize = 16f;
 		}
 		defaultceiltexture = "F_SKY1";
 		overridebrightness = false;
@@ -559,8 +541,9 @@ maps
 				offsetx_bottom = 1;
 				offsety_mid = 1;
 				offsetx_mid = 1;
-				offsetx_top = 1;
 				offsety_top = 1;
+				offsetx_top = 1;
+				light = 0;
 			}
 			
 			sector
@@ -573,8 +556,8 @@ maps
 				yscalefloor = 1;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 17;
-				rotationfloor = 17;
+				rotationceiling = 1;
+				rotationfloor = 1;
 			}
 			
 			thing
@@ -604,9 +587,9 @@ maps
 		}
 		defaulttoptexture = "SP_ROCK1";
 		overridemiddletexture = false;
-		viewpositionx = -4799.153f;
-		viewpositiony = -4464.731f;
-		viewscale = 0.6465414f;
+		viewpositionx = -3722.495f;
+		viewpositiony = -3415.49f;
+		viewscale = 1.092655f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -616,7 +599,7 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 8f;
+			gridsize = 16f;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
@@ -662,12 +645,12 @@ maps
 			{
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 17;
+				rotationceiling = 1;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
-				rotationfloor = 17;
+				rotationfloor = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
 				floorglowcolor = 0;
