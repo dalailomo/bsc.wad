@@ -51,4 +51,7 @@ Feedback is appreciated :). Thanks!
 Also some screenshots:
 
 https://raw.githubusercontent.com/dalailomo/bsc.wad/master/Screenshot_Doom_20210507_225056.png
-
+https://raw.githubusercontent.com/dalailomo/bsc.wad/master/Screenshot_Doom_20210507_225426.png
+https://raw.githubusercontent.com/dalailomo/bsc.wad/master/Screenshot_Doom_20210626_002045.png
+https://raw.githubusercontent.com/dalailomo/bsc.wad/master/Screenshot_Doom_20210626_002342.png
+https://raw.githubusercontent.com/dalailomo/bsc.wad/master/Screenshot_Doom_20210626_002402.png
