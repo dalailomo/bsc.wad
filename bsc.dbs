@@ -25,7 +25,7 @@ maps
 			resource0
 			{
 				type = 1;
-				location = "C:\\Users\\pedro\\games\\DooM\\bsc";
+				location = "C:\\Users\\pedro\\Games\\Oldschool\\DooM\\bsc";
 				option1 = 1;
 				option2 = 1;
 				notfortesting = 0;
@@ -49,9 +49,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 173.223f;
-		viewpositiony = 822.1045f;
-		viewscale = 3.496809f;
+		viewpositionx = 443.7956f;
+		viewpositiony = 240.9822f;
+		viewscale = 0.3297476f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		fieldtypes
@@ -70,11 +70,11 @@ maps
 				offsety_top = 1;
 				offsetx_bottom = 1;
 				offsety_bottom = 1;
+				light = 0;
 				scalex_top = 1;
 				scalex_mid = 1;
 				scaley_mid = 1;
 				scaley_top = 1;
-				light = 0;
 				scalex_bottom = 1;
 			}
 			
@@ -85,13 +85,13 @@ maps
 				ypanningfloor = 1;
 				ypanningceiling = 1;
 				xpanningceiling = 1;
-				rotationfloor = 17;
+				rotationfloor = 1;
 				rotationceiling = 17;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
-				fadecolor = 0;
 				xscalefloor = 1;
 				yscalefloor = 1;
+				fadecolor = 0;
 			}
 			
 			thing
