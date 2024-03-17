@@ -8,7 +8,7 @@ EPISODE 1: Playable 100%
 
 EPISODE 2: Playable 100%
 
-EPISODE 3: Playabe 66%
+EPISODE 3: Playabe 100% (but still unpolished in some places)
 
 Secret map: I dont even remember if it's accesible through normal playthrough, but also need some tweaks (its based\*(copypasted) on another map I did for another thingie)
 
