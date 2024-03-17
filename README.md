@@ -44,7 +44,7 @@ Probably I will resume the development at some point...
 
 To run it, it just needed to load the pk3 file into GZDooM.
 
-[https://github.com/dalailomo/bsc.wad/releases/tag/beta\_2](https://github.com/dalailomo/bsc.wad/releases/tag/beta_2)
+[https://github.com/dalailomo/bsc.wad/releases/tag/beta\_3](https://github.com/dalailomo/bsc.wad/releases/tag/beta_3)
 
 Feedback is appreciated :). Thanks!
 
