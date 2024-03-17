@@ -2,13 +2,15 @@
 
 Hello everyone!
 
-I have been working in a collection of maps since a while back and I would like to share it on the wilds.  Its divided in 3 episodes of 3 maps each, although I need to do the final map + the secret map.
+I have been working in a collection of maps since a while back and I would like to share it on the wilds.  Its divided in 3 episodes of 3 maps each + the secret map.
 
 EPISODE 1: Playable 100%
 
 EPISODE 2: Playable 100%
 
 EPISODE 3: Playabe 100% (but still unpolished in some places)
+
+SECRET MAP: Unifinished rubbish so far
 
 Secret map: I dont even remember if it's accesible through normal playthrough, but also need some tweaks (its based\*(copypasted) on another map I did for another thingie)
 
